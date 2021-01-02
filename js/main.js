@@ -10,6 +10,9 @@ import {dessertsData} from './data/desserts-data.js';
 //drinks import
 import {RenderDrinks} from './drinks/RenderDrinks.js';
 import {drinksData} from './data/drinks-data.js'
+//other items import
+import {RenderOtherItems} from './other-items/Render0therItems.js';
+import {otherData} from './data/other-items-data.js';
 //pizza 
 new RenderPizza(pizzaData);
 // appetizers
@@ -18,3 +21,5 @@ new RenderAppetizers(appetizersData);
 new RenderDesserts(dessertsData);
 //drinks
 new RenderDrinks(drinksData);
+//other items
+new RenderOtherItems(otherData);
