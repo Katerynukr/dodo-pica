@@ -1,12 +1,6 @@
-class RenderSinglePizza {
+class RenderDesserts {
     constructor(params){
         this.selector = params.selector;
-        this.img = params.photoPath;
-        this.buttonName = params.button;
-        this.pizzaName = params.title;
-        this.description = params.description;
-        this.price = params.price;
-        this.alt = params.alt;
         this.items = params.items;
         
         this.DOM = null;
@@ -34,18 +28,18 @@ class RenderSinglePizza {
     generateHTML(){
         let HTML ='';
         for(let i = 0; i < this.items.length; i++ ){
-            let pizza = this.items[i];
+            let dessert = this.items[i];
         HTML  += ` <div class="item col-3">
                         <div class="item-img">
-                            <img src="${pizza.photoPath}" alt="${pizza.alt}">
+                            <img src="${dessert.imgPath}" alt="${dessert.alt}">
                         </div>
                         <div class="item-description">
-                            <h2 .class="item-name">${pizza.title}</h2>
-                            <p .class="item-ingredients">${pizza.description}</p>
+                            <h2 class="item-name">${dessert.title}</h2>
+                            <p class="item-ingredients">${dessert.description}</p>
                         </div>
                         <div class="price-select">
-                            <p class="price">${pizza.price}</p>
-                            <a href="#" class="select">${pizza.button}</a>
+                            <p class="price">${dessert.price}</p>
+                            <a href="#" class="select">${dessert.button}</a>
                         </div>
                     </div>`;
         }
@@ -54,4 +48,4 @@ class RenderSinglePizza {
     }
 
 }
-export{RenderSinglePizza}
+export{RenderDesserts}

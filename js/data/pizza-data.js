@@ -52,7 +52,7 @@ const pizzaData = {
     },
     {
         photoPath: './img/pizzas/crazy.jpg',
-        title: 'Crazy',
+        title: 'Crazy 🌶️',
         alt: 'Crazy',
         description: 'Saldžiarūgštis padažas, vištiena, mocarelos sūris, saliamis, picų padažas',
         price: 'nuo 8,75 €',
@@ -60,7 +60,7 @@ const pizzaData = {
     },
     {
         photoPath: './img/pizzas/royal.jpg',
-        title: 'Royal',
+        title: 'Royal 🌶️',
         alt: 'Royal',
         description: 'Pievagrybiai, čili padažas, picų padažas, raudonieji svogūnai, vištiena, jautiena, kumpis, mocarelos sūris',
         price: 'nuo 8,75 €',
@@ -92,7 +92,7 @@ const pizzaData = {
     },
     {
         photoPath: './img/pizzas/mexican.jpg',
-        title: 'Mexican',
+        title: 'Mexican 🌶️',
         alt: 'Mexican',
         description: 'Pievagrybiai, picų padažas, jalapeno griežinėliai, žalioji paprika, vištiena, saliamis, mocarelos sūris, pomidorai',
         price: 'nuo 8,75 €',
@@ -100,7 +100,7 @@ const pizzaData = {
     },
     {
         photoPath: './img/pizzas/pepperoni.jpg',
-        title: 'Pepperoni',
+        title: 'Pepperoni 🌶️',
         alt: 'Pepperoni',
         description: 'Picų padažas, mocarelos sūris, saliamis',
         price: 'nuo 8,75 €',
@@ -140,7 +140,7 @@ const pizzaData = {
     },
     {
         photoPath: './img/pizzas/spicy.jpg',
-        title: 'Spicy',
+        title: 'Spicy 🌶️',
         alt: 'Spicy',
         description: 'Mocarelos sūris, čili padažas, jalapeno griežinėliai, saliamis, picų padažas, medžiotojų dešrelės',
         price: 'nuo 7,75 €',
@@ -148,7 +148,7 @@ const pizzaData = {
     },
     {
         photoPath: './img/pizzas/margherita.jpg',
-        title: 'Margherita',
+        title: 'Margherita 🌱',
         alt: 'Margherita',
         description: 'Picų padažas, mocarelos sūris, pomidorai, itališkos žolelės',
         price: 'nuo 6,75 €',
@@ -164,7 +164,7 @@ const pizzaData = {
     },
     {
         photoPath: './img/pizzas/the-meats.jpg',
-        title: 'The Meats',
+        title: 'The Meats 🌶️',
         alt: 'The Meats',
         description: 'Medžiotojų dešrelės, mocarelos sūris, šoninė, kumpis, jautiena, picų padažas',
         price: 'nuo 7,75 €',
@@ -172,7 +172,7 @@ const pizzaData = {
     },
     {
         photoPath: './img/pizzas/vegetarian.jpg',
-        title: 'Vegetarian',
+        title: 'Vegetarian 🌱',
         alt: 'Vegetarian',
         description: 'Pievagrybiai, fetos sūris, picų padažas, marinuoti agurkai, juodosios alyvuogės, žalioji paprika, raudonieji svogūnai, mocarelos sūris, pomidorai, itališkos žolelės',
         price: 'nuo 7,75 €',
@@ -180,7 +180,7 @@ const pizzaData = {
     },
     {
         photoPath: './img/pizzas/cheese.jpg',
-        title: 'Cheese',
+        title: 'Cheese 🌱',
         alt: 'Cheese',
         description: 'Mocarelos sūris, picų padažas, fetos suгis, itališkos žolelės',
         price: 'nuo 6,75 €',
@@ -188,7 +188,7 @@ const pizzaData = {
     },
     {
         photoPath: './img/pizzas/picos-pyragas.jpg',
-        title: 'Picos pyragas',
+        title: 'Picos pyragas 🌱',
         alt: 'Picos pyragas',
         description: 'Bruknės, ananasai, sutirštintas pienas',
         price: 'nuo 6,75 €',
