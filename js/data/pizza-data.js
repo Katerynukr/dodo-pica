@@ -1,6 +1,6 @@
 const pizzaData = {
     selector: '#pizza',
-    title1: 'Picos',
+    head: 'Picos',
     items: [
     {
         photoPath: './img/pizzas/christmas-pizza.jpg',

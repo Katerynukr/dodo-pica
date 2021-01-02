@@ -1,5 +1,6 @@
 const dessertsData = {
     selector: '#desserts',
+    head: 'Desertai',
     items: [
     {
         imgPath: './img/desserts/bandeles-su-bruknemis.jpg',

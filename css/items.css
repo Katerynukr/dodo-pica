@@ -1,3 +1,11 @@
+/* style for pizzas appetizers desserts and drinks */
+.section-header{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 24px;
+    margin: 32px 0px;
+}
 .item{
     display: inline-block;
     margin-bottom: 60px;

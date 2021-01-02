@@ -1,8 +1,9 @@
 const drinksData = {
     selector: '#drinks',
+    head: 'Gėrimai',
     items: [
     {
-        photo: 'coca-cola-1.jpg',
+        imgPath: './img/drinks/coca-cola-1.jpg',
         title: 'Coca-Cola',
         description: '1 l',
         price: '2,50 €',
@@ -10,7 +11,7 @@ const drinksData = {
     },
 
     {
-        photo: 'coca-cola-zero.jpg',
+        imgPath: './img/drinks/coca-cola-zero.jpg',
         title: 'Coca-Cola Zero',
         description: '0,5 l',
         price: '1,50 €',
@@ -18,7 +19,7 @@ const drinksData = {
     },
 
     {
-        photo: 'coca-cola-0.5.jpg',
+        imgPath: './img/drinks/coca-cola-0.5.jpg',
         title: 'Coca-Cola',
         description: '0,5 l',
         price: '1,50 €',
@@ -26,7 +27,7 @@ const drinksData = {
     },
 
     {
-        photo: 'fanta.jpg',
+        imgPath: './img/drinks/fanta.jpg',
         title: 'Fanta',
         description: '0,5 l',
         price: '1,50 €',
@@ -34,7 +35,7 @@ const drinksData = {
     },
 
     {
-        photo: 'sprite.jpg',
+        imgPath: './img/drinks/sprite.jpg',
         title: 'Sprite',
         description: '0,5 l',
         price: '1,50 €',
@@ -42,7 +43,7 @@ const drinksData = {
     },
 
     {
-        photo: 'negazuotas-vanduo.jpg',
+        imgPath: './img/drinks/negazuotas-vanduo.jpg',
         title: 'Negazuotas vanduo',
         description: '0,5 l',
         price: '1,30 €',
@@ -50,7 +51,7 @@ const drinksData = {
     },
 
     {
-        photo: 'gazuotas-vanduo.jpg',
+        imgPath: './img/drinks/gazuotas-vanduo.jpg',
         title: 'Gazuotas vanduo',
         description: '',
         price: '1,30 €',
@@ -58,7 +59,7 @@ const drinksData = {
     },
 
     {
-        photo: 'pienas.jpg',
+        imgPath: './img/drinks/pienas.jpg',
         title: 'Pienas MARGĖ, 3,2%, UAT',
         description: '3,2% riebumo pienas, 1 L Apdorotas ultraaukšta temperatūra (UAT), 1 l',
         price: '1,20 €',
@@ -66,7 +67,7 @@ const drinksData = {
     },
 
     {
-        photo: 'cido-ivairiu-vaisiu-1.jpg',
+        imgPath: './img/drinks/cido-ivairiu-vaisiu-1.jpg',
         title: 'Įvairių vaisių gėrimas CIDO',
         description: '1 l',
         price: '2,50 €',
@@ -74,7 +75,7 @@ const drinksData = {
     },
 
     {
-        photo: 'cido-apelsinu-1.jpg',
+        imgPath: './img/drinks/cido-apelsinu-1.jpg',
         title: 'Apelsinų sultys CIDO 100%',
         description: '1 l',
         price: '2,50 €',
@@ -82,7 +83,7 @@ const drinksData = {
     },
 
     {
-        photo: 'cido-obuoliu-1.jpg',
+        imgPath: './img/drinks/cido-obuoliu-1.jpg',
         title: 'Obuolių sultys CIDO 100%',
         description: '1 l',
         price: '2,50 €',
@@ -90,7 +91,7 @@ const drinksData = {
     },
 
     {
-        photo: 'cido-pomidoru-1.jpg',
+        imgPath: './img/drinks/cido-pomidoru-1.jpg',
         title: 'Pomidorų sultys CIDO 100%',
         description: '1 l',
         price: '2,50 €',
@@ -98,7 +99,7 @@ const drinksData = {
     },
 
     {
-        photo: 'cido-apelsinu-0.3.jpg',
+        imgPath: './img/drinks/cido-apelsinu-0.3.jpg',
         title: 'Apelsinų sultys CIDO (100%)',
         description: '0,3 l',
         price: '1,50 €',
@@ -106,7 +107,7 @@ const drinksData = {
     },
 
     {
-        photo: 'cido-obuoliu-0.3.jpg',
+        imgPath: './img/drinks/cido-obuoliu-0.3.jpg',
         title: 'Obuolių sultys CIDO (100%)',
         description: '0,3 l',
         price: '1,50 €',
@@ -114,7 +115,7 @@ const drinksData = {
     },
 
     {
-        photo: 'cido-pomidoru-0.3.jpg',
+        imgPath: './img/drinks/cido-pomidoru-0.3.jpg',
         title: 'Pomidorų sultys CIDO (100%)',
         description: '0,3 l',
         price: '1,50 €',
@@ -122,7 +123,7 @@ const drinksData = {
     },
 
     {
-        photo: 'frutto-ivairiu-vaisiu.png',
+        imgPath: './img/drinks/frutto-ivairiu-vaisiu.png',
         title: 'Įvairių vaisių gėrimas FRUTTO',
         description: '0,5 l',
         price: '1,30 €',
@@ -130,7 +131,7 @@ const drinksData = {
     },
 
     {
-        photo: 'vasaros-uogu-frutto.png',
+        imgPath: './img/drinks/vasaros-uogu-frutto.png',
         title: 'Vasaros uogų sulčių gėrimas FRUTTO',
         description: '0,5 l',
         price: '1,30 €',
@@ -138,7 +139,7 @@ const drinksData = {
     },
 
     {
-        photo: 'cido-ivairiu-vaisiu.png',
+        imgPath: './img/drinks/cido-ivairiu-vaisiu.png',
         title: 'Įvairių vaisių gėrimas CIDO',
         description: '0,2 l',
         price: '0,60 €',
@@ -146,7 +147,7 @@ const drinksData = {
     },
 
     {
-        photo: 'fuzetea-lemon.jpg',
+        imgPath: './img/drinks/fuzetea-lemon.jpg',
         title: 'Fuzetea Lemon',
         description: '0,5 l',
         price: '1,50 €',
@@ -154,7 +155,7 @@ const drinksData = {
     },
 
     {
-        photo: 'fuzetea-peach.jpg',
+        imgPath: './img/drinks/fuzetea-peach.jpg',
         title: 'Fuzetea Peach',
         description: '0,5 l',
         price: '1,50 €',
@@ -162,7 +163,7 @@ const drinksData = {
     },
 
     {
-        photo: 'fuzetea-green-citrus.jpg',
+        imgPath: './img/drinks/fuzetea-green-citrus.jpg',
         title: 'Fuzetea Green Citrus',
         description: 'Šalta žalia arbata su citrina., 0,5 l',
         price: '1,50 €',
@@ -170,7 +171,7 @@ const drinksData = {
     },
 
     {
-        photo: 'nealkoholinis-baltas-alus.jpg',
+        imgPath: './img/drinks/nealkoholinis-baltas-alus.jpg',
         title: 'Nealkoholinis kvietinis BALTAS alus',
         description: 'Nealkoholinis kvietinis BALTAS alus, 0,5 l',
         price: '2,00 €',
@@ -178,7 +179,7 @@ const drinksData = {
     },
 
     {
-        photo: 'nealkoholinis-alus-pilsner.jpg',
+        imgPath: './img/drinks/nealkoholinis-alus-pilsner.jpg',
         title: 'Nealkoholinis šviesusis alus PILSNER',
         description: 'Nealkoholinis šviesusis alus PILSNER, 0,5 l',
         price: '2,00 €',
@@ -186,7 +187,7 @@ const drinksData = {
     },
     
     {
-        photo: 'nealkoholinis-radler.jpg',
+        imgPath: './img/drinks/nealkoholinis-radler.jpg',
         title: 'Nealkoholinis kokteilis RADLER',
         description: '0,5 l',
         price: '2,00 €',
@@ -194,7 +195,7 @@ const drinksData = {
     },
 
     {
-        photo: 'red-bull.jpg',
+        imgPath: './img/drinks/red-bull.jpg',
         title: 'Energinis gėrimas RED BULL',
         description: '0,25 l',
         price: '2,50 €',

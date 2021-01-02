@@ -1,6 +1,7 @@
 class RenderDesserts {
     constructor(params){
         this.selector = params.selector;
+        this.header = params.head;
         this.items = params.items;
         
         this.DOM = null;
@@ -27,6 +28,7 @@ class RenderDesserts {
 
     generateHTML(){
         let HTML ='';
+        HTML += `<h2 class="section-header col-12">${this.header}</h2>`;
         for(let i = 0; i < this.items.length; i++ ){
             let dessert = this.items[i];
         HTML  += ` <div class="item col-3">

@@ -1,4 +1,4 @@
-class RenderPizza {
+class RenderDrinks {
     constructor(params){
         this.selector = params.selector;
         this.header = params.head;
@@ -30,18 +30,18 @@ class RenderPizza {
         let HTML ='';
         HTML += `<h2 class="section-header col-12">${this.header}</h2>`;
         for(let i = 0; i < this.items.length; i++ ){
-            let pizza = this.items[i];
+            let drink = this.items[i];
         HTML  += ` <div class="item col-3">
                         <div class="item-img">
-                            <img src="${pizza.photoPath}" alt="${pizza.alt}">
+                            <img src="${drink.imgPath}" alt="${drink.alt}">
                         </div>
                         <div class="item-description">
-                            <h2 class="item-name">${pizza.title}</h2>
-                            <p class="item-ingredients">${pizza.description}</p>
+                            <h2 class="item-name">${drink.title}</h2>
+                            <p class="item-ingredients">${drink.description}</p>
                         </div>
                         <div class="price-select">
-                            <p class="price">${pizza.price}</p>
-                            <a href="#" class="select">${pizza.button}</a>
+                            <p class="price">${drink.price}</p>
+                            <a href="#" class="select">${drink.button}</a>
                         </div>
                     </div>`;
         }
@@ -50,4 +50,4 @@ class RenderPizza {
     }
 
 }
-export{RenderPizza}
+export{RenderDrinks}
