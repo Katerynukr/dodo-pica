@@ -1,0 +1,64 @@
+.footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(69, 75, 84);
+}
+    .footer-top-right{
+        display: inline-block;
+        width:100%;
+        grid-column-start: 9;
+        grid-column-end: 13;
+       text-align: right;
+    }
+        .footer-top-header{
+            font-weight: 500;
+            letter-spacing: 0.1px;
+            margin-bottom: 7px;
+        }
+        .apps{
+            display: inline-block;
+            width:100%;
+            margin:0;
+        }
+            .app{
+                display: inline-block;
+                width:50%;
+                float:left;
+            }
+            .app  img {
+                display: inline-block;
+                object-fit: contain;
+                object-position: center;
+                width: 100%;
+            }
+            .footer-phone-number{
+                cursor: pointer;
+                font-size: 26px;
+                letter-spacing: 0.4px;
+                margin-bottom: 20px;
+                margin-top:15px;
+            }
+                .footer-phone-number .description{
+                    font-size: 16px;
+                    padding: 4px 0px 3px;
+                    text-transform: lowercase;
+                    color: rgb(255, 255, 255);
+                }
+                .footer-phone-number a{
+                    color: rgb(255, 255, 255);
+                }
+            .footer-phone-mail{
+                
+            }
+                .link-footer{
+                    opacity: 0.7;
+                    line-height: 1.2;
+                    margin-bottom: 9px;
+                    white-space: normal;
+                    color: rgb(255, 255, 255);
+                    cursor: pointer;
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+                .link-footer:hover{
+                    opacity: 1;
+                }
