@@ -1,3 +1,5 @@
+//carusel import
+
 // pizza import
 import {RenderPizza} from './pizza/RenderPizza.js';
 import { pizzaData } from './data/pizza-data.js';
@@ -13,6 +15,8 @@ import {drinksData} from './data/drinks-data.js'
 //other items import
 import {RenderOtherItems} from './other-items/Render0therItems.js';
 import {otherData} from './data/other-items-data.js';
+// carusel
+
 //pizza 
 new RenderPizza(pizzaData);
 // appetizers

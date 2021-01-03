@@ -11,20 +11,79 @@
     <link rel="stylesheet" href="./css/items.css">
     <link rel="stylesheet" href="./css/delivery-payment.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/carusel.css">
+    <link rel="stylesheet" href="./css/header.css">
 </head>
 <body>
     <!-- header -->
-    <header class="container">
-        <div class="row"></div>
+    <header class="container" id="header">
+        <div class="row">
+            <div class="logo col-3">
+                <img src="./img/main/dodo-logo.png" alt="dodo-logo">
+            </div>
+            <div class="delivery-city col-4">
+                <div class="men-title">Nemokamas picų pristatymas <span class="vilnius"><a src="#">Vilnius</a></span></div>
+                <div class="delivery-info">
+                    <div class="delivery-time">37min <span class="dot"></span> 4.88<span class="fa fa-star"></span></div>
+                </div>
+                <!-- <div class="star-hover">
+                    <div class="men-delivery-time-hover">
+                        <div class="star-block"></div>
+                        <div class="men-delivery-time-left">
+                            <h3>35 minutės</h3>
+                            <p class="men-delivery-time-par">Vidutinis pristatymo laikas</p>
+                            <p class="men-delivery-time-par1">Jei nespėsime pristatyti</p>
+                            <p class="men-delivery-time-par1">per 60 minučių, Jūs gausite</p>
+                            <p class="men-delivery-time-par1">kuponą nemokamai didelei picai</p>
+                        </div>
+                        <div class="men-delivery-time-right">
+                            <div class="men-delivery-time-star"></span> 4.85<span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"><span class="fa fa-star checked"></span><span class="fa fa-star half"></span></span></div>
+                            <p class="men-delivery-time-par">586 įvertinimas</p>
+                            <p class="men-delivery-time-par1">Įvertinti užsakymą galima</p>
+                            <p class="men-delivery-time-par1"> mobilioje programėlėje</p>
+                        </div>
+                        <p class="men-delivery-time-bottom">Paskutinių 7 dienų duomenys jūsų mieste</p>
+                    </div>
+                </div> -->
+            </div>
+            <div class="order-now col-2">
+                <div class="order-title">Skambinkite</div>
+                <div class="order-number"><a href="#">8 635 11 555</a></div>
+            </div>
+            <div class="sign-in">
+                <div class="btn-sign-in">Prisijungti</div>
+            </div>
+        </div>
          <!-- navigation -->
          <nav class="row">
              
          </nav>
     </header>
     <!-- carusel -->
-    <div class="container">
+    <div class="container" id="carusel">
         <div class="row">
-
+            <div class="carusel">
+                <div class="carusel-container" id="insert">
+                    <div class="slide">
+                        <img src="./img/carusel/carusel1.jpg" alt="carusel">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/carusel/carusel2.jpg" alt="carusel">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/carusel/carusel3.jpg" alt="carusel">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/carusel/carusel4.jpg" alt="carusel">
+                    </div>
+                </div>
+                <div class=" row dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                </div>
+            </div> -->
         </div>
     </div>
     <!--  pizza -->

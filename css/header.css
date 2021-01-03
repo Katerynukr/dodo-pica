@@ -1,0 +1,73 @@
+    .logo > img{
+        display: inline-block;
+        width: 100%;
+    }
+.delivery-city{
+    display: inline-block;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+    .delivery-time{
+        /* position: relative; */
+        margin-top: 1px;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 500;
+        z-index: 2;
+    }
+        .delivery-time > .dot{
+            display: inline-block;
+            width: 3px;
+            height: 3px;
+            background-color: black;
+            margin: 3px 6px;
+            margin-top: 7px;
+            border-radius: 3px;
+        }
+        .fa.fa-star{
+            color: rgb(255, 210, 0);
+            margin: 2px 5px;
+        }
+    .order-title{
+        padding: 4px 0px 3px;
+        color: rgb(153, 153, 153);
+        font-size: 15px;
+        line-height: 1;
+        font-weight: 500;
+    }
+    .order-number{
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 500;
+    }
+        .order-number > a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+    .sign-in{
+        grid-column-start: 11;
+        grid-column-end:13;
+        float: right;
+        font-size: 14px;
+        font-weight: 500;
+       
+    }
+        .btn-sign-in{
+            display: inline-block;
+            margin-left: 25px;
+            margin-top: 10px;
+            padding: 10px 15px;
+            border-radius: 20px;
+            height: 32px;
+            font-size: 14px;
+            line-height: 16px;
+            color: rgb(92, 99, 112);
+            background-color: rgb(243, 243, 247);
+        }
+        .btn-sign-in:hover{
+            color: rgb(0, 0, 0);  
+        }
