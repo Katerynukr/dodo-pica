@@ -1,3 +1,4 @@
+ /* header top  */
  #header > .row{
      position:relative;
  }
@@ -125,7 +126,7 @@
             text-decoration: none;
         }
     .sign-in{
-        grid-column-start: 11;
+        grid-column-start: 12;
         grid-column-end:13;
         float: right;
         font-size: 14px;
@@ -146,4 +147,47 @@
         }
         .btn-sign-in:hover{
             color: rgb(0, 0, 0);  
+        }
+/* header bottom */
+.navigation{
+    display: inline-block;
+    width: 100%;
+}
+    .navigation-links{
+        display: inline-block;
+        width: 75%;
+        float:left;
+    }
+        .navigation-links a{
+            display: inline-block;
+            font-weight: 500;
+            color: black;
+            font-size: 14px;
+            line-height: 1;
+            padding: 22px 0px;
+            transition: color 0.25s ease 0s, padding 0.25s ease 0s;
+            margin-left: 20px;
+        }
+        .navigation-links a:first-of-type{
+            margin-left: 0;
+        }
+        .navigation-links a:hover{
+            color:rgb(209, 87, 0);
+        }
+    .navigation-btn{
+        display: inline-block;
+        width: 25%;
+        float:right;
+        text-align: right;
+    }
+        .navigation-btn > a {
+            height: 40px;
+            font-size: 17px;
+            line-height: 24px;
+            padding: 10px 20px;
+            background-color: rgb(255, 105, 0);
+            color: rgb(255, 255, 255);
+            border-radius: 25px;
+            font-weight: 500;
+            
         }
