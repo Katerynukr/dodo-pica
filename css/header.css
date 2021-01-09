@@ -149,9 +149,22 @@
             color: rgb(0, 0, 0);  
         }
 /* header bottom */
+#navigation{
+    /* position: fixed;
+    top: 0;
+    width:100%; */
+}
+.scroll {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    transition: all 0.5s;
+}
 .navigation{
     display: inline-block;
-    width: 100%;
+    width: 1200px;
 }
     .navigation-links{
         display: inline-block;
@@ -163,7 +176,7 @@
             font-weight: 500;
             color: black;
             font-size: 14px;
-            line-height: 1;
+            /* line-height: 1; */
             padding: 22px 0px;
             transition: color 0.25s ease 0s, padding 0.25s ease 0s;
             margin-left: 20px;
@@ -179,8 +192,11 @@
         width: 25%;
         float:right;
         text-align: right;
+        margin-top:14px;
+        
     }
         .navigation-btn > a {
+            display: inline-block;
             height: 40px;
             font-size: 17px;
             line-height: 24px;
@@ -188,6 +204,16 @@
             background-color: rgb(255, 105, 0);
             color: rgb(255, 255, 255);
             border-radius: 25px;
-            font-weight: 500;
-            
+            font-weight: 500; 
         }
+@media (max-width: 1300px) {
+    .navigation{
+        width: 1000px;
+    }
+}
+@media (max-width: 1100px) {
+    .navigation{
+        width:1fr;
+    }
+}
+        

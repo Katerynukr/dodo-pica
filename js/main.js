@@ -1,3 +1,6 @@
+//head imoirt
+import { RenderHead } from './head/RenderHead.js';
+import { headData } from './data/head-data.js';
 //carusel import
 
 // pizza import
@@ -15,6 +18,9 @@ import {drinksData} from './data/drinks-data.js'
 //other items import
 import {RenderOtherItems} from './other-items/Render0therItems.js';
 import {otherData} from './data/other-items-data.js';
+
+//head
+new RenderHead(headData);
 // carusel
 
 //pizza 
