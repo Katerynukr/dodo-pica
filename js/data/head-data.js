@@ -12,7 +12,7 @@ const headData = {
         },
         {
             name: 'Užkandžiai',
-            link:'#snacks'
+            link:'#appetizers'
         },
         {
             name: 'Desertai',
@@ -28,11 +28,11 @@ const headData = {
         },
         {
             name: 'Akcijos',
-            link:'#'
+            link:'./akcijos.html'
         },
         {
             name: 'Kontaktai',
-            link:'#'
+            link:'./contacts.html'
         }
     ]}
 

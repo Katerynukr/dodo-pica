@@ -37,6 +37,13 @@ class RenderHead {
         return true;
     }
 
+    isHomePage(){
+        if (location.pathname === "/dodo-pica/index.html") {
+            return true;
+        }
+        return false;
+    }
+
     generateLinks(){
         let HTML = '<div class="navigation-links">';
         for (let i = 0; i < this.navigation.length; i++) {
@@ -44,12 +51,17 @@ class RenderHead {
             if (!this.isValidMenuLink(navigationItem)) {
                 continue;
             }
-            let url = navigationItem.link;
-            // let url = this.baseURL + menuItem.link;
-            // if (url[url.length - 1] !== '/') {
-            //     url += '/';
-            // }
-
+            let url = '';
+            if(this.isHomePage() === true){
+                url +=  navigationItem.link;
+                console.log(url);
+            } else {
+                url += location.origin;
+                url += '/dodo-pica/index.html';
+                url += navigationItem.link;
+                console.log(url);
+            }
+            console.log(url);
             HTML += `<a href="${url}" ">${navigationItem.name}</a>`;
         }
         HTML += '</div>';
