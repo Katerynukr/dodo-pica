@@ -54,14 +54,17 @@ class RenderHead {
             let url = '';
             if(this.isHomePage() === true){
                 url +=  navigationItem.link;
-                console.log(url);
+
             } else {
                 url += location.origin;
-                url += '/dodo-pica/index.html';
+                if(navigationItem.name !== 'Akcijos' && navigationItem.name !== 'Kontaktai'){
+                    url += '/dodo-pica/index.html';
+                } else {
+                    url += '/dodo-pica/';
+                }
                 url += navigationItem.link;
-                console.log(url);
+
             }
-            console.log(url);
             HTML += `<a href="${url}" ">${navigationItem.name}</a>`;
         }
         HTML += '</div>';
