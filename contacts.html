@@ -11,10 +11,8 @@
     <link rel="stylesheet" href="./css/font-awesome.min.css">
     <!-- components -->
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/carusel.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/items.css">
-    <link rel="stylesheet" href="./css/delivery-payment.css">
+    <link rel="stylesheet" href="./css/contacts.css">
     <link rel="stylesheet" href="./css/footer.css">
     <!-- custom -->
     <link rel="stylesheet" href="./css/custom.css">
@@ -67,35 +65,34 @@
     <!-- actions -->
         <div class="container">
             <div class="row">
-                <div class="form-adress-left">
+                <div class="form-adress-left col-8">
                     <h1 class="form-title">Vilnius</h1>
-                    <div>
-                        <input class="adress-input" type="text" placeholder="Rajonas, gatvė">
-                        <div class="adress-map"><a href="https://www.google.com/maps/d/embed?mid=1N0k6mbv_h8FC-LyK5I67e8Zm_-fSK8y8&ll=54.704584825182714%2C25.28386910000001&z=12" >Pristatymo zona</a>></div>
-                    </div>
-                    <div class="adress-checkbox">
-                        <div class="adress-all-day">
-                            <input type="checkbox" name="all-day"
-                            checked>
-                            <label for="all-day"> Visą parą</label>
+                    <div class="form-input">
+                        <div class="adreess-input-field">
+                            <input class="adress-input" type="text" placeholder="Rajonas, gatvė">
+                            <div class="adress-map"><a href="https://www.google.com/maps/d/embed?mid=1N0k6mbv_h8FC-LyK5I67e8Zm_-fSK8y8&ll=54.704584825182714%2C25.28386910000001&z=12" >Pristatymo zona</a></div>
                         </div>
-                        <div class="adress-works-now">
-                            <input type="checkbox" name="now"
-                            checked>
-                            <label for="now"> Dabar dirba</label>
+                        <div class="adress-checkbox">
+                            <div class="adress-all-day">
+                                <input type="checkbox" name="all-day">
+                                <label for="all-day"> Visą parą</label>
+                            </div>
+                            <div class="adress-works-now">
+                                <input type="checkbox" name="now">
+                                <label for="now"> Dabar dirba</label>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="contact-information-right">
-                    <div class="adress-phone">Telefonas:</div>
-                    <div class="adress-number"><a href="#">8 635 11 555</a></div>
-                    <div class="adress-question">Klausimai, atsiliepimai ir pasiūlymai:</div>
-                    <div class="adress-email"><a href="#">kokybe@dodopizza.lt</a></div>
+                    <div class="adress-text">Telefonas:</div>
+                    <div class="adress-link"><a href="#">8 635 11 555</a></div>
+                    <div class="adress-text">Klausimai, atsiliepimai ir pasiūlymai:</div>
+                    <div class="adress-link"><a href="#">kokybe@dodopizza.lt</a></div>
                 </div>
             </div>
-            <div class="row adress-bottom">
-                <div class="adress-picaplaces">
-                    <div class="adress-single">
+            <div class="row adress-picaplaces">
+                    <div class="adress-single col-3">
                         <div class="adress-single-title">
                             <h3><a href="#">Antakalnio g. 41</a></h3>
                             <div>
@@ -107,20 +104,20 @@
                                 <p>Antakalnio g., 41</p>
                             </div>
                             <div class="adress-single-divery">
-                                <p>Pristatymas</p>
+                                <p class="head">Pristatymas</p>
                                 <p>Pr - Kt: 09:00 — 23:00</p>
                                 <p>Pn - Š: 09:00 — 00:00</p>
                                 <p>S: 09:00 — 23:00</p>
                             </div>
                             <div class="adress-single-restaurant">
-                                <p>Restoranas ir išsinešimui</p>
+                                <p class="head">Restoranas ir išsinešimui</p>
                                 <p>Pr - Kt: 09:00 — 23:00</p>
                                 <p>Pn - Š: 09:00 — 00:00</p>
                                 <p>S: 09:00 — 23:00</p>
                             </div>
                         </div>
                     </div>
-                    <div class="adress-single">
+                    <div class="adress-single col-3">
                         <div class="adress-single-title">
                             <h3><a href="#">PPC OZAS</a></h3>
                             <div>
@@ -144,7 +141,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="adress-single">
+                    <div class="adress-single col-3">
                         <div class="adress-single-title">
                             <h3><a href="#">Savanorių pr. 1, Helios City</a></h3>
                             <div>
@@ -169,7 +166,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="adress-single">
+                    <div class="adress-single col-3">
                         <div class="adress-single-title">
                             <h3><a href="#">Ukmergės g. 308, DOMUS PRO</a></h3>
                             <div>
@@ -195,7 +192,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     <!--  footer -->

@@ -55,3 +55,10 @@
     .promo-code:hover {
         background-color: #f9d1b3;
     }
+    
+@media only screen and (max-width: 1100px){
+    body{
+        width: 1100px;
+        overflow-x: hidden;
+    }
+}
